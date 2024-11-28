@@ -1,0 +1,48 @@
+table.SLOT td, table.SLOT th {
+    border: 1px solid #c6e7f7;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+table.SLOT tbody td {
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+table.SLOT thead {
+    background: #c6e7f7;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+table.SLOT thead th {
+    font-size: 17px;
+    color: #000;
+    text-align: center;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.konten {
+    color: #fff;
+    padding: 20px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+p#breadcrumbs {
+    color: #fff;
+    text-align: center;
+}
+a{
+    color:#fec917;
+}
+a:hover{
+    color:#fff;
+}
+.konten>h2>em{
+    color: #1cff00;
+    font-size: 20px;
+}
+.konten>p{
+    text-align: justify;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(255 255 255);
+}

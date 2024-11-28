@@ -1,0 +1,296 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+body {
+    background-color: var(--color-1);
+    background-image: url(../images/bgs.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.btn, .btn:hover, .btn:focus, .btn:visited {
+    box-shadow: none;
+    border: 0;
+}
+.btn.btn-daftar,
+.btn.btn-daftar:hover {
+    padding: 0;
+    line-height: 50px;
+    color: var(--white);
+    font-weight: 700;
+    background-color:#142e62;
+    border-radius: 8px 0 0 8px;
+}
+.btn.btn-login,
+.btn.btn-login:hover {
+    padding: 0;
+    line-height: 50px;
+    color: var(--white);
+    font-weight: 700;
+    background-color:ea9105;
+    border-radius: 0 8px 8px 0;
+}
+.btn.btn-game,
+.btn.btn-game:hover {
+    padding: 5px 8px;
+    color: var(--white);
+    background-image: linear-gradient(to bottom, var(--color-7), var(--color-6));
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+}
+
+header {
+    display: block;
+    position: relative;
+}
+header .logo-wrapper {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+}
+header .logo-wrapper img.web-logo {
+    display: block;
+    width: 100%;
+    background: url(../images/spark.gif) repeat scroll 0% 0% transparent;
+}
+
+section {
+    display: block;
+    position: relative;
+}
+section article p {
+    font-size: 14px;
+}
+section article a {
+    color: var(--color-5);
+}
+section .sticky-menu {
+    display: block;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: 999;
+}
+section .sticky-menu .menu-item {
+    display: block;
+    position: relative;
+    padding: 15px 0 5px;
+    color: var(--color-9);
+    text-align: center;
+    text-decoration: none;
+    background-image: radial-gradient(circle at top center, rgba(255,255,255,.2) 0, rgba(255,255,255,0) 100%);
+}
+section .sticky-menu .menu-item .fi {
+    display: block;
+    font-size: 18px;
+}
+section .sticky-menu .menu-item span {
+    display: block;
+    margin-top: -2px;
+    font-size: 10px;
+}
+
+footer {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.animate-charcter {
+    display: inline-block;
+    text-transform: uppercase;
+    background-image: linear-gradient( 45deg, #fff800 0%,#ff1361 25%, #44107a 50%, #ff1361 75%, #fff800 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@keyframes textclip {
+    100% {
+        background-position: -200% center;
+    }
+}
+
+@import url('../../css2-2');
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 38px;
+}
+.waviy span {
+  font-family: 'Chakra Petch', sans-serif;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+.jamgacor{
+     background-image:linear-gradient(#00ec00,#00b40e);
+     font-family:poppins,sans-serif!important;
+     padding:3px;
+     padding-top:6px;
+     border:.1px solid #000 
+}
+ .jamgacor h5{
+     font-size:1.3em 
+}
+ .progress{
+     height:fit-content 
+}
+ .pola{
+     background-image:linear-gradient(#003dfd,#0177cc);
+     font-family:poppins,sans-serif!important;
+     padding:3px;
+     padding-top:6px;
+     border-bottom-left-radius:6px;
+     border-bottom-right-radius:6px;
+     border:.1px solid #000 
+}
+ .pola>p{
+     margin-bottom:5px;
+}
+ .jam{
+     color:#fff;
+     font-weight:700;
+     text-align: center;
+}
+ .jam h5{
+     font-size:1.3em;
+     font-weight:700 
+}
+ .jamBg{
+     background:#000;
+}
+ @media(max-width:992px){
+     .jamgacor>h5{
+         font-size:1em 
+    }
+     .pola>p{
+         font-size:.8em 
+    }
+}
+ @media(max-width:576px){
+     .pola>p{
+         font-size:9px !important 
+    }
+    .jam h5{
+     font-size:0.8em;
+}
+}
+
+@keyframes blinkColor {
+  0% {
+    color: #ff9900;
+  }
+  50% {
+    color: #ffffff;
+  }
+  100% {
+    color: #ff9900;
+  }
+}
+
+
+
+/* Gaya default untuk mobile */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d2530;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: 3px solid transparent; /* Awal tanpa border */
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden; /* Agar efek tidak keluar dari tombol */
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+/* Efek glowing border */
+.button::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #33ff00, #fbff00, #00b7ff);
+    z-index: -1; /* Efek berada di belakang tombol */
+    animation: borderGlow 2s linear infinite; /* Animasi warna */
+    background-size: 300% 300%; /* Agar gradasi terlihat dinamis */
+}
+
+.button:hover { 
+    color: #f39c12;
+    background-color: #444;
+    box-shadow: 0 0 15px rgba(243, 156, 18, 0.8);
+}
+
+/* Animasi border glowing */
+@keyframes borderGlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Penyesuaian khusus untuk desktop */
+@media (min-width: 768px) {
+    .button {
+        padding: 15px 30px; /* Ukuran tombol lebih besar */
+        font-size: 18px; /* Font lebih besar */
+    }
+
+    .button:hover {
+        color: #ffffff;
+        background-color: #f39c12; /* Background berubah lebih cerah */
+        box-shadow: 0 0 20px rgba(243, 156, 18, 1); /* Shadow lebih kuat */
+    }
+}

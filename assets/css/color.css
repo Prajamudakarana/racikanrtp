@@ -1,0 +1,26 @@
+:root {
+    --color-1: #111111;
+    --color-2: #a67407;
+    --color-3: #f2dd1b;
+    --color-4: #a67407;
+    --color-5: #f2dd1b;
+    --color-6: #7d00a3;
+    --color-7: #b809ed;
+    --color-8: #252525;
+    --color-9: #f5f5f5;
+	--color-10: #384654;
+	--color-11: #ffc10e;
+}
+
+.bg-color-1 { background-color: var(--color-1); }
+.bg-color-2 { background-color: var(--color-2); }
+.bg-color-3 { background-color: var(--color-3); }
+.bg-color-4 { background-color: var(--color-4); }
+.bg-color-5 { background-color: var(--color-5); }
+.bg-color-6 { background-color: var(--color-6); }
+.bg-color-7 { background-color: var(--color-7); }
+.bg-color-8 { background-color: var(--color-8); }
+.bg-color-9 { background-color: var(--color-9); }
+.bg-color-10 { background-color: var(--color-10); }
+.bg-color-11 { background-color: var(--color-11); }
+.bg-gradient { background-image: linear-gradient(to bottom, #638bd6 0%,#102b66 100%); }

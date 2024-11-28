@@ -1,0 +1,113 @@
+.rtp-wrapper {
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0 0px inset, rgb(255, 255, 255) 0px 0px 5px 3px;
+}
+.rtp-wrapper .rtp-header {
+    border-radius: 8px 8px 0 0;
+}
+.rtp-wrapper .rtp-body {
+    border-radius: 0 0 8px 8px;
+}
+
+.card.card-game,
+.card.card.card-game .card-body {
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    min-height: 100px;
+}
+.card.card-game .card-body img.card-img-top {
+    border-radius: 8px 8px 0 0;
+}
+.card.card-game .card-body .game-link {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+.card.card-game .card-body:hover .game-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 16;
+}
+.card.card-game .percent {
+    height: 27px;
+    display: flex;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    position: relative;
+    margin: 0 auto;
+    border: 0.1px solid #000;
+}
+.card.card-game .percent p {
+    z-index: 15;    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    line-height: 27px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.card.card-game .percent-bar {
+    /* background-color: #ffc107; */
+    background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 1rem 1rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    /* background-color: #007bff; */
+    transition: width .6s ease;
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+    /* animation: ; */
+    z-index: 10;
+}
+.card.card-game .percent-bar.yellow{
+    background-color: #ffc107;
+}
+.card.card-game .percent-bar.green{
+    background-color: #28a745;
+}
+.card.card-game .percent-bar.red{
+    background-color: #dc3545;
+}
+
+.card.card-provider,
+.card.card-provider .card-body {
+    border-radius: 12px;
+}
+.card.card-provider .card-body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card.card-provider .card-body img.provider-thumbnail {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    max-height: 30px;
+    width: auto;
+}
