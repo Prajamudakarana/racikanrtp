@@ -49,10 +49,10 @@
               
                 <div class="row no-gutters justify-content-between align-items-center">
                     <div class="col-6">
-                        <a href="https://bbaannkk303.pro/register?ref=CIDORI" class="btn btn-block btn-daftar border-0 text-uppercase">DAFTAR</a>
+                        <a href="https://situsku.org/bolawin923" class="btn btn-block btn-daftar border-0 text-uppercase">DAFTAR</a>
                     </div>
                     <div class="col-6">
-                        <a href="https://bbaannkk303.pro/register?ref=CIDORI" class="btn btn-block btn-login border-0 text-uppercase">LOGIN</a>
+                        <a href="https://situsku.org/bolawin923" class="btn btn-block btn-login border-0 text-uppercase">LOGIN</a>
                     </div>
                 </div>
                 
@@ -76,7 +76,7 @@
                      const modal = document.getElementById("myModal");
                     const btn = document.getElementById("openModal");
                     const span = document.getElementsByClassName("close")[0];
-                    const videoId = "CNWCT2W4xZg"; // Ganti dengan ID video YouTube yang baru
+                    const videoId = "Qu2kByIZb9Q"; // Ganti dengan ID video YouTube yang baru
 
                     btn.onclick = function() {
                         // Atur src dengan autoplay
@@ -1677,7 +1677,7 @@
                 $('.btn-game').on('click', function(e) {
                     e.preventDefault();
                     
-                    window.location.href = 'https://bbaannkk303.pro/register?ref=CIDORI';
+                    window.location.href = 'https://situsku.org/bolawin923';
                 });
             });
         </script>		
